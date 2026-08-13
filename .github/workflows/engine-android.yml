@@ -44,7 +44,7 @@ jobs:
         with:
           name: debug-apk
           path: engine/workspaces/androidstudio/**/build/outputs/apk/debug/*.apk
-          retention-days: 30
+          retention-days: 90
           if-no-files-found: warn
 
       - name: Build Info
